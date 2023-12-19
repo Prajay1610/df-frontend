@@ -11,29 +11,32 @@ Step2: npm start
 
 Below are screenshots showcasing the user interface of the frontend, which has been developed using React.
 
-### Screenshot 1
-![Login Page Snapshot1](LoginPage.png)
+### Login Page
+![Login Page Snapshot1](screenshots/LoginPage.png)
 
-### Screenshot 2
-![Description](path/to/screenshot-2.png)
+### Login Page Validation
+![Description](screenshots/LoginValidation.png)
 
-### Screenshot 3
-![Description](path/to/screenshot-3.png)
+### Login Success
+![Description](screenshots/SuccessLogin.png)
 
-### Screenshot 4
-![Description](path/to/screenshot-4.png)
+### SignUp Page
+![Description](screenshots/SignupPage.png)
 
-### Screenshot 5
-![Description](path/to/screenshot-5.png)
+### Existing User Check
+![Description](screenshots/ExistingUserSignup.png)
 
-## Contributing
+### Existing User Check
+![Description](screenshots/ExistingUserSignup.png)
 
-Explain how others can contribute to your project. Include guidelines for reporting bugs, suggesting enhancements, or submitting pull requests.
+### Password Length Validation
+![Description](screenshots/PassLengthValidation.png)
 
-## License
+### Successful Signup And Redirection To Login 
+![Description](screenshots/Signupsuccess.png)
 
-Specify the license under which your project is distributed.
+### Token Generation Using JWT and Password Hashing Using bcyrpt
+![Description](screenshots/token-generation.png)
 
----
 
-Feel free to modify the template to fit your project's specific details. Add your own content, such as installation instructions, project structure, or any other information relevant to your users. Additionally, replace the placeholder image paths with the actual paths to your screenshots.
+
