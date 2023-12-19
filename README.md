@@ -35,8 +35,16 @@ Below are screenshots showcasing the user interface of the frontend, which has b
 ### Successful Signup And Redirection To Login 
 ![Description](screenshots/Signupsuccess.png)
 
+### Forgot Password Page
+![Description](screenshots/ForgotPass.png)
+
 ### Token Generation Using JWT and Password Hashing Using bcyrpt
 ![Description](screenshots/token-generation.png)
+
+
+
+
+
 
 
 
