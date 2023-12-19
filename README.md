@@ -9,7 +9,7 @@ Step2: npm start
 
 ## Screenshots
 
-Include screenshots of your code or project in action. You can embed up to five images. Use the following format:
+Below are screenshots showcasing the user interface of the frontend, which has been developed using React.
 
 ### Screenshot 1
 ![Login Page Snapshot1](LoginPage.png)
