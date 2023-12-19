@@ -42,11 +42,37 @@ const SignUp = () => {
 
   const submitHandler = async () => {
     setLoading(true);
-    if (!email || !password) {
+    if (!email || !password || !confirmpassword) {
       toast({
         title: "Please Fill All The Fields",
 
         status: "warning",
+        duration: 4000,
+        isClosable: true,
+        position: "bottom",
+      });
+      setLoading(false);
+      return;
+    }
+
+    if (password !== confirmpassword) {
+      toast({
+        title: "Passwords Do Not Match",
+        message: "Both Passwords Should be same",
+        status: "error",
+        duration: 4000,
+        isClosable: true,
+        position: "bottom",
+      });
+      setLoading(false);
+      return;
+    }
+
+    if (password.length < 10) {
+      toast({
+        title: "Password Should Contain Atleast 10 Characters",
+
+        status: "error",
         duration: 4000,
         isClosable: true,
         position: "bottom",
@@ -62,15 +88,14 @@ const SignUp = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:5000/api/user/login",
-        { email, password },
+        "http://localhost:5000/api/user/",
+        { email, password, confirmpassword },
         config
       );
       console.log(data);
 
       toast({
-        title: "Login  Successfull",
-        description: `Welcome ${email}`,
+        title: "SignUp  Successfull",
         status: "success",
         duration: 5000,
         isClosable: true,
@@ -81,11 +106,11 @@ const SignUp = () => {
 
       setLoading(false);
 
-      navigate("/home");
+      navigate("/");
     } catch (e) {
       toast({
-        title: "Error Occured",
-        description: "Wrong Credentials! Please Try Again",
+        title: "Try with a new Email!",
+        description: "User Already Exists!",
         status: "error",
         duration: 5000,
         isClosable: true,
@@ -187,7 +212,7 @@ const SignUp = () => {
                 isLoading={loading}
                 marginBottom={"30px"}
               >
-                Login
+                SignUp
               </Button>
             </Box>
           </CardBody>
