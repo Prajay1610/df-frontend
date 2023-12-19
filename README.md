@@ -1,38 +1,18 @@
-# Your Project Name
+DigitalFlakes_Frontend Task Using ReactJS
 
-Brief description of your project.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Provide a brief introduction to your project, explaining its purpose and main features.
-
-## Features
-
-List key features of your project.
 
 ## Getting Started
 
-Provide instructions on how to get started with your project. Include any prerequisites, installation steps, or configuration instructions.
+Step1: npm install
+Step2: npm start
 
-## Usage
-
-Demonstrate how to use your project, and provide code examples if necessary.
 
 ## Screenshots
 
 Include screenshots of your code or project in action. You can embed up to five images. Use the following format:
 
 ### Screenshot 1
-![Description](path/to/screenshot-1.png)
+![Login Page Snapshot1](LoginPage.png)
 
 ### Screenshot 2
 ![Description](path/to/screenshot-2.png)
